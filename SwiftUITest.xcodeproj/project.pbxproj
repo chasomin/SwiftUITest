@@ -11,6 +11,7 @@
 		79EBA4BC2BCD003600C3C530 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBA4BB2BCD003600C3C530 /* ContentView.swift */; };
 		79EBA4BE2BCD003800C3C530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EBA4BD2BCD003800C3C530 /* Assets.xcassets */; };
 		79EBA4C12BCD003800C3C530 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EBA4C02BCD003800C3C530 /* Preview Assets.xcassets */; };
+		79EBA4C82BCD04DD00C3C530 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBA4C72BCD04DD00C3C530 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		79EBA4BB2BCD003600C3C530 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		79EBA4BD2BCD003800C3C530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79EBA4C02BCD003800C3C530 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79EBA4C72BCD04DD00C3C530 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				79EBA4B92BCD003600C3C530 /* SwiftUITestApp.swift */,
 				79EBA4BB2BCD003600C3C530 /* ContentView.swift */,
+				79EBA4C72BCD04DD00C3C530 /* SecondView.swift */,
 				79EBA4BD2BCD003800C3C530 /* Assets.xcassets */,
 				79EBA4BF2BCD003800C3C530 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79EBA4C82BCD04DD00C3C530 /* SecondView.swift in Sources */,
 				79EBA4BC2BCD003600C3C530 /* ContentView.swift in Sources */,
 				79EBA4BA2BCD003600C3C530 /* SwiftUITestApp.swift in Sources */,
 			);
