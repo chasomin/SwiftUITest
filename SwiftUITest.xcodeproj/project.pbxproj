@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79B0440A2BCFD03500407A1F /* PointButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B044092BCFD03500407A1F /* PointButtonModifier.swift */; };
+		79B0440C2BCFD06A00407A1F /* PointTwoButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B0440B2BCFD06A00407A1F /* PointTwoButtonView.swift */; };
+		79B0440E2BCFD23800407A1F /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B0440D2BCFD23800407A1F /* View+.swift */; };
+		79B044102BCFD25300407A1F /* OpacityRoundedRectangleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B0440F2BCFD25300407A1F /* OpacityRoundedRectangleModifier.swift */; };
+		79B044142BCFD3DA00407A1F /* TitleSizeImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B044132BCFD3DA00407A1F /* TitleSizeImageModifier.swift */; };
 		79EBA4BA2BCD003600C3C530 /* SwiftUITestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBA4B92BCD003600C3C530 /* SwiftUITestApp.swift */; };
 		79EBA4BC2BCD003600C3C530 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBA4BB2BCD003600C3C530 /* ContentView.swift */; };
 		79EBA4BE2BCD003800C3C530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EBA4BD2BCD003800C3C530 /* Assets.xcassets */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79B044092BCFD03500407A1F /* PointButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointButtonModifier.swift; sourceTree = "<group>"; };
+		79B0440B2BCFD06A00407A1F /* PointTwoButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointTwoButtonView.swift; sourceTree = "<group>"; };
+		79B0440D2BCFD23800407A1F /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		79B0440F2BCFD25300407A1F /* OpacityRoundedRectangleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityRoundedRectangleModifier.swift; sourceTree = "<group>"; };
+		79B044132BCFD3DA00407A1F /* TitleSizeImageModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSizeImageModifier.swift; sourceTree = "<group>"; };
 		79EBA4B62BCD003600C3C530 /* SwiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EBA4B92BCD003600C3C530 /* SwiftUITestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestApp.swift; sourceTree = "<group>"; };
 		79EBA4BB2BCD003600C3C530 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,8 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				79EBA4B92BCD003600C3C530 /* SwiftUITestApp.swift */,
+				79B0440D2BCFD23800407A1F /* View+.swift */,
 				79EBA4BB2BCD003600C3C530 /* ContentView.swift */,
 				79EBA4C72BCD04DD00C3C530 /* SecondView.swift */,
+				79B0440B2BCFD06A00407A1F /* PointTwoButtonView.swift */,
+				79B044092BCFD03500407A1F /* PointButtonModifier.swift */,
+				79B0440F2BCFD25300407A1F /* OpacityRoundedRectangleModifier.swift */,
+				79B044132BCFD3DA00407A1F /* TitleSizeImageModifier.swift */,
 				79EBA4BD2BCD003800C3C530 /* Assets.xcassets */,
 				79EBA4BF2BCD003800C3C530 /* Preview Content */,
 			);
@@ -140,8 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B0440C2BCFD06A00407A1F /* PointTwoButtonView.swift in Sources */,
 				79EBA4C82BCD04DD00C3C530 /* SecondView.swift in Sources */,
+				79B0440A2BCFD03500407A1F /* PointButtonModifier.swift in Sources */,
+				79B044102BCFD25300407A1F /* OpacityRoundedRectangleModifier.swift in Sources */,
 				79EBA4BC2BCD003600C3C530 /* ContentView.swift in Sources */,
+				79B0440E2BCFD23800407A1F /* View+.swift in Sources */,
+				79B044142BCFD3DA00407A1F /* TitleSizeImageModifier.swift in Sources */,
 				79EBA4BA2BCD003600C3C530 /* SwiftUITestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
